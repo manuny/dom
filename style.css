@@ -43,3 +43,6 @@ h1{
 .text{
     text-align: center;
 }
+img{
+    outline: 2px solid rgb(121, 221, 252)
+}
