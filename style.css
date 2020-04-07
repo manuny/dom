@@ -10,8 +10,7 @@
  }
  h3{
     font-family: Arial;
-     color: black;
-     font-weight 400;
+       font-weight 400;
      background-color:#eaeaea;
      font-size: 18px;
  }
@@ -43,6 +42,69 @@ h1{
 .text{
     text-align: center;
 }
-img{
-    outline: 2px solid rgb(121, 221, 252)
+.menu Li a:hover{
+    color: crimson;
+}
+.cotalog li a:hover{
+    color: rgb(15, 252, 173);
+}
+.logotip{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+h2{
+    background: #afeeee;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: "Courier";
+	border-radius: 50%;
+}
+input[type="email"]:focus {
+    color: rgb(206, 143, 143);
+    font-weight: bold;
+    background: #afeeee;
+    }
+input[type="text"],
+textarea {
+    text-transform: capitalize;
+    } 
+table,
+td,
+th {
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	width: 200px;
+	height: 20px;
+	text-align: center;
+}
+th {
+	background: #c6f5f0;
+}
+td {
+	background: #f2fcfb;
+}
+caption {
+	font-size: 18px;
+}
+thead tr{
+	height: 70px;
+}
+.img{
+    border: solid;
+    border-color: #cacd58 #5faf8a #b9cea5 #aab238;
+}
+.img:hover{
+    border: none;
+    margin: 3px;
+}
+.product:first-letter{
+    color: #f855e2;
+	font-size: 26px;
 }
