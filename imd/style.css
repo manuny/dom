@@ -1,0 +1,184 @@
+ body{
+    background-color:#f8f8f8;
+    color:#000000;
+ }
+ .menu{
+    list-style-type: none;
+    color: blueviolet;
+    font: 1em sans-serif;
+    font-family: fantasy;
+ }
+ h3{
+    font-family: Arial;
+       font-weight 400;
+     background-color:#eaeaea;
+     font-size: 18px;
+ }
+ ul{
+     color: #707070;
+     font-size: 14px;
+     font-style: italic;
+     line-height: 16px;
+ }
+ .cat{
+    list-style-image: url(imd/1.png);
+    color: rgb(18, 1, 34);
+    font-style: normal;
+}
+input[type=text]{
+    width: 300px;
+    height: 15px;
+    font-style: italic;
+    color: blueviolet;
+}
+input[action]{
+    color: rebeccapurple;
+}
+h1{
+    color: red;
+    font-size: 72px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.menu Li a:hover{
+    color: crimson;
+}
+.cotalog li a:hover{
+    color: rgb(15, 252, 173);
+}
+.logotip{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+h2{
+    background: #afeeee;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: "Courier";
+	border-radius: 50%;
+}
+input[type="email"]:focus {
+    color: rgb(206, 143, 143);
+    font-weight: bold;
+    background: #afeeee;
+    }
+input[type="text"],
+textarea {
+    text-transform: capitalize;
+    } 
+table,
+td,
+th {
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	width: 200px;
+	height: 20px;
+	text-align: center;
+}
+th {
+	background: #c6f5f0;
+}
+td {
+	background: #f2fcfb;
+}
+caption {
+	font-size: 18px;
+}
+thead tr{
+	height: 70px;
+}
+.img{
+    border: solid;
+    border-color: #cacd58 #5faf8a #b9cea5 #aab238;
+}
+.img:hover{
+    border: none;
+    margin: 3px;
+}
+.product:first-letter{
+    color: #f855e2;
+	font-size: 26px;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+    height: 150px;
+	background: url(imd/fon.jpg) no-repeat center bottom;
+}
+body {
+	background: #f8f8f8;
+}
+footer {
+	height: 150px;
+	background: #e2e2f7;
+}
+footer p {
+	margin: 65px 50px 0 0;
+	text-align: right;
+}
+hr {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.information h2 {
+	background: #afeeee;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: "Courier";
+	border-radius: 50%;
+}
+.logotip {
+	width: 100px;
+	margin: 0 0 0 25px;
+	float: left;
+}
+.clearfix {
+	clear: both;
+}
+.menu {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+.menu a {
+	font-weight: normal;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #1fcecb;
+	display: block;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+}
+.menu li {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #1fcecb;
+	display: block;
+	width: 33%;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #f8f8f8;
+	margin-top: 65px;
+}
+.menu a:hover {
+	background-color: #99f0ee;
+	color: #000000;
+}
